@@ -1,0 +1,88 @@
+body {
+     background-color: #2c3e50;
+     text-align: center;
+}
+ h2 {
+     color: #e74c3c;
+     margin-top: 10px;
+     margin-bottom: 7px;
+     font-family: 'Josefin Sans', sans-serif;
+}
+
+ hr {
+     margin-top: 30px;
+     width: 500px;
+}
+
+  p {
+    color: white;
+    font-family: 'Josefin Sans', sans-serif;
+  }
+
+ #box {
+     width: 500px;
+     margin-bottom: 0px;
+}
+ #logo {
+     margin-top: 40px;
+     color: #f1c40f;
+     font-size: 50px;
+     font-family: 'Josefin Sans', sans-serif;
+     margin-bottom: 50px;
+}
+ #products {
+     width: 850px;
+     margin: 20px auto;
+     display: flex;
+     flex-wrap: wrap;
+}
+ .product {
+     width: 182px;
+     height: 268px;
+     margin: 10px;
+     margin-bottom: 90px;
+     color: white;
+     font-family: 'Josefin Sans', sans-serif;
+}
+ .product p {
+     margin: 10px;
+}
+ img {
+     width: 182px;
+     height: 268px;
+}
+ .picture {
+     min-height: 268px;
+     max-width: 182px;
+     position: relative;
+     padding: 0;
+     margin: 0;
+     text-align: center;
+     display: block;
+}
+ .text{
+     position: absolute;
+     top: 0;
+     right: 0;
+     bottom: 0;
+     left: 0;
+     height: 268px;
+     width: 182px;
+     text-align: center;
+     background-color: rgba(0,0,0,0.8);
+     opacity: 0;
+     -webkit-transition: opacity 0.2s;
+     -moz-transition: opacity 0.6s;
+     transition: opacity 0.6s;
+     vertical-align:middle;
+     line-height:268px;
+}
+ .text:hover{
+     opacity: 1;
+}
+ .text span{
+     color: #f1c40f;
+     display: inline-table;
+     vertical-align:middle;
+     line-height:100%;
+}
